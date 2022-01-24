@@ -1,0 +1,9 @@
+<button mat-flat-button *ngIf="!value">{{ value }}</button>
+<div>
+  <button nbButton status="info" *ngIf="value == 'X'">
+    {{ value }}
+  </button>
+  <button nbButton status="danger" *ngIf="value == 'O'">
+    {{ value }}
+  </button>
+</div>
